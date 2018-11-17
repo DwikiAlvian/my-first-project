@@ -9,6 +9,9 @@ switch($modul) {
     case "users":
     include 'modules/users/index.php';
     break;
+    case "rekening":
+    include 'modules/rekening/index.php';
+    break;
     case "transaksi":
     include 'modules/transaksi/index.php';
     break;
